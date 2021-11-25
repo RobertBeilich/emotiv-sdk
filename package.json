@@ -1,0 +1,42 @@
+{
+  "name": "emotiv-sdk",
+  "version": "0.1.0",
+  "description": "SDK to interact with EMOTIV hardware via their API",
+  "author": "Robert Beilich (robert@beilich.de)",
+  "main": "lib/emotiv-sdk.js",
+  "module": "lib/emotiv-sdk.mjs",
+  "typings": "lib/emotiv-sdk.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup --config",
+    "lint": "eslint --report-unused-disable-directives --ignore-path .gitignore ."
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@types/lodash": "^4.14.176",
+    "@types/node": "^16.11.4",
+    "@types/ws": "^8.2.0",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "esbuild": "^0.13.15",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.0",
+    "rollup": "^2.60.0",
+    "rollup-plugin-dts": "^4.0.1",
+    "rollup-plugin-esbuild": "^4.7.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "ws": "^8.2.3"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "declaration": true,
+    "outDir": "lib",
+    "lib": ["esnext", "dom"],
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "rootDir": "src",
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "**/*/*.spec.ts"
+  ]
+}
