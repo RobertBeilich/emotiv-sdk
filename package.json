@@ -1,7 +1,11 @@
 {
   "name": "emotiv-sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "SDK to interact with EMOTIV hardware via their API",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RobertBeilich/emotiv-sdk.git"
+  },
   "author": "Robert Beilich (robert@beilich.de)",
   "main": "lib/emotiv-sdk.js",
   "module": "lib/emotiv-sdk.mjs",
